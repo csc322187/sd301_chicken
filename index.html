@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>炸雞派對</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff2e63;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header ul li {
+            margin-left: 1.5rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: #fde2e4;
+            padding: 3rem 1rem;
+            position: relative;
+        }
+
+        .hero img {
+            max-width: 100%;
+            margin-top: 1rem;
+        }
+
+        .btn-primary {
+            background: #ff2e63;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        /* Product Section */
+        .products {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .product-item {
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        /* Offers Section */
+        .offers {
+            background: #f8f9fa;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .offer-box {
+            display: inline-block;
+            background: #fff;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .offer-box img {
+            max-width: 100%;
+            margin-top: 1rem;
+        }
+
+        /* Desserts */
+        .desserts {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .dessert-items {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .dessert img {
+            max-width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Map Section */
+        .location {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .map img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        /* Subscribe */
+        .subscribe {
+            background: #fde2e4;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .subscribe input {
+            padding: 0.5rem;
+            width: 50%;
+            margin-top: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .subscribe button {
+            margin-left: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #ff2e63;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.5rem;
+        }
+
+        footer ul li {
+            margin-left: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 頂部導覽欄 -->
+    <header>
+        <nav>
+            <div class="logo">士東301炸雞</div>
+            <ul>
+                <li>首頁</li>
+                <li>菜單</li>
+                <li>聯絡我們</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- 首頁大圖與標題 -->
+    <section class="hero">
+        <h1>炸雞派對<br>即將開動！</h1>
+        <p>立即探索我們的熱門炸雞！</p>
+        <button class="btn-primary">查看菜單</button>
+        <img src="fried-chicken-basket.png" alt="炸雞籃">
+    </section>
+
+    <!-- 熱賣商品 -->
+    <section class="products">
+        <h2>熱賣商品</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="product1.png" alt="煙燻炸雞">
+                <h3>煙燻炸雞</h3>
+                <p>NT$150</p>
+            </div>
+            <div class="product-item">
+                <img src="product2.png" alt="豪華炸雞餐">
+                <h3>黃金酥炸豪華套餐</h3>
+                <p>NT$250</p>
+            </div>
+            <div class="product-item">
+                <img src="product3.png" alt="經典炸雞">
+                <h3>香酥原味炸雞</h3>
+                <p>NT$150</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 優惠區 -->
+    <section class="offers">
+        <h2>熱賣炸雞，超值優惠</h2>
+        <div class="offer-box">
+            <h3>今日特價: 超值套餐</h3>
+            <p>炸雞堡 x1 + 脆皮炸雞 x1</p>
+            <p>NT$188</p>
+            <img src="burger-chicken.png" alt="特價套餐">
+        </div>
+    </section>
+
+    <!-- 甜點專區 -->
+    <section class="desserts">
+        <h2>甜點壓軸．幸福滿分！</h2>
+        <div class="dessert-items">
+            <div class="dessert">
+                <img src="dessert1.png" alt="香蕉捲">
+                <p>NT$50</p>
+            </div>
+            <div class="dessert">
+                <img src="dessert2.png" alt="提拉米蘇">
+                <p>NT$150</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 找尋門市 -->
+    <section class="location">
+        <h2>找尋離您最近的美味</h2>
+        <div class="map">
+            <img src="map.png" alt="地圖">
+        </div>
+    </section>
+
+    <!-- 訂閱區 -->
+    <section class="subscribe">
+        <h2>美味炸雞．唯您獨享</h2>
+        <p>訂閱我們的電子報，獲得獨家優惠資訊！</p>
+        <input type="email" placeholder="您的Email地址">
+        <button class="btn-primary">訂閱</button>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <div class="footer-info">
+            <p>&copy; 2024 士東301炸雞</p>
+            <ul>
+                <li>隱私政策</li>
+                <li>聯絡我們</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
