@@ -1,0 +1,171 @@
+/* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff2e63;
+        }
+
+        header ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header ul li {
+            margin-left: 1.5rem;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            background: #fde2e4;
+            padding: 3rem 1rem;
+            position: relative;
+        }
+
+        .hero img {
+            max-width: 100%;
+            margin-top: 1rem;
+        }
+
+        .btn-primary {
+            background: #ff2e63;
+            color: #fff;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+
+        /* Product Section */
+        .products {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .product-list {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .product-item {
+            background: #fff;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .product-item img {
+            max-width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        /* Offers Section */
+        .offers {
+            background: #f8f9fa;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .offer-box {
+            display: inline-block;
+            background: #fff;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .offer-box img {
+            max-width: 100%;
+            margin-top: 1rem;
+        }
+
+        /* Desserts */
+        .desserts {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .dessert-items {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .dessert img {
+            max-width: 100%;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Map Section */
+        .location {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .map img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        /* Subscribe */
+        .subscribe {
+            background: #fde2e4;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+
+        .subscribe input {
+            padding: 0.5rem;
+            width: 50%;
+            margin-top: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .subscribe button {
+            margin-left: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #ff2e63;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.5rem;
+        }
+
+        footer ul li {
+            margin-left: 1rem;
+        }
